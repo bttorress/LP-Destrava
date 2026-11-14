@@ -38,7 +38,9 @@ python3 -m http.server 8000
 - **VSL:** no `index.html`, substitua o bloco `.vsl-placeholder` pelo embed do seu player
   (YouTube/Vimeo/VTurb etc.) mantendo o container `.vsl` com proporção 9:16.
 - **CTAs:** os botões apontam para `#video`. Troque pelo link do checkout/cadastro quando houver.
-- **Cores:** ajuste os tokens no topo do `css/styles.css` (`--accent`, `--ink`, `--paper`).
+- **Cores:** paleta oficial definida nos tokens do topo do `css/styles.css`
+  — branco gelo `#F5F5F5`, laranja `#FF6B00`, grafite `#14181C` (mais tons
+  neutros derivados para estados e legibilidade). Seções alternam claro/escuro.
 - **Links legais:** atualize os `href="#"` de *Termos de Uso* e *Política de Privacidade* no rodapé.
 
 ## Notas
